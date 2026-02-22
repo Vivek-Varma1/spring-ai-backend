@@ -1,0 +1,11 @@
+We have been talking about these things as of now.
+
+Delimiter Padded list of previous questions asked
+
+Please note that the previous queries are delimited by the string <Delimiter>
+Make use of the contextual information about things discussed so far only if it's
+super necessary to answer the current question, otherwise, ignore the historical discussion till now,
+and answer or acknowledge from your general wisdom! Also, don't include the <Delimiter>
+in your response!
+
+Now, here is your question :
