@@ -16,7 +16,8 @@ public class CorsConfig {
                 registry.addMapping("/chat/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://spring-ai-frontend-five.vercel.app"
+                                "https://spring-ai-frontend-five.vercel.app",
+                                "https://contextifychat.vercel.app"
                         )
                         .allowedMethods("*")
                         .allowedHeaders("*")
