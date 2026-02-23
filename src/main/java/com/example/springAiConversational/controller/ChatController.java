@@ -76,7 +76,7 @@ public Map<String,String> chat(@RequestParam(value = "contextId",defaultValue = 
 
 
 }
-    @GetMapping(value = "/chatwithstream", produces = MediaType.TEXT_EVENT_STREAM_VALUE,params = "contextId")
+    @GetMapping(value = "/chatwithstream", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
     public Flux<Map<String, String>> chatStream(
             @RequestParam(value = "contextId", defaultValue = "") String contextId,
             @RequestParam(value = "message", defaultValue = "random facts") String message) {
